@@ -1,0 +1,22 @@
+{
+  "name": "Todoist tags blocks",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Makes todoist tags blocks instead of coloured text",
+  "permissions": [
+    "https://*.todoist.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.todoist.com/*"
+      ],
+      "js": [
+        "inject.js"
+      ],
+      "css": [
+        "inject.css"
+      ]
+    }
+  ]
+}

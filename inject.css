@@ -1,0 +1,21 @@
+:root {
+    --green-bg-color: rgb(250, 255, 251);
+    --green-font-color: rgb(47 72 50);
+    --green-link-color: rgb(47 72 50);
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+.read_option_color .swatch {
+    width: 17% !important;
+}
+
+.read_option_color .swatch_green {
+    color: var(--green-bg-color);
+    background-color: var(--green-bg-color);
+}
+
+.task_list_item__info_tags__label {
+    padding: 0 5px;
+}
